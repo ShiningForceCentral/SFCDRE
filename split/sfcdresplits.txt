@@ -1,0 +1,11 @@
+/***********************Directories***************************/
+#dir	filesystem/
+
+
+/***********************Data***************************/
+
+#split	0x0,0x800,sector00000-header.bin
+#split	0x800,0x1000,sector00001-maincpu-initprg.bin
+#split	0x1000,0x8000,sector00002-00016-subcpu-initprg.bin
+
+split	0x0,0x0,\0x0 - .bin
