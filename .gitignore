@@ -3,8 +3,8 @@
 *.bin
 *.iso
 
-# No SFCDDISASM-related files created by our IDC scripts
-sfcdsplits.txt
+# Nothing from the iso filesystem dir
+disasm/filesystem/
 
 
 # No IDB IDA Database or related files
